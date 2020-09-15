@@ -40,7 +40,9 @@ nav ul li:last-child {
 }
 
 .about__section,
-.achievements__section {
+.achievements__section,
+.categories__section,
+footer {
   padding-top: 1.5rem;
 }
 
@@ -58,7 +60,7 @@ nav ul li:last-child {
 }
 
 .achievements__section ul {
-  margin: 1rem 1.5rem 1rem 2rem;
+  margin: 1rem 1.5rem 0 2rem;
 }
 
 .categories__section ul {
@@ -79,6 +81,15 @@ nav ul li:last-child {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+}
+
+footer {
+  border-top: 0.15rem solid black;
+  height: auto;
+  text-align: center; 
+}
+footer > * {
+  margin: 1rem 2rem;
 }
 @media screen and (max-width: 600px) {
   body {
